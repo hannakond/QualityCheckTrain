@@ -52,7 +52,7 @@ Run the following commands in the virtual environment:
 
 ```bash
 $(venv) cd yolov5
-$(venv) python train.py --config ../config/fruits.yaml
+$(venv) python train.py --data ../config/fruits.yaml
 ```
 
 Training will take a while depending on your resources.
