@@ -67,7 +67,7 @@ Run the following commands in the virtual environment:
 
 ```bash
 $(venv) cd yolov5
-$(venv) python train.py --weights ../model/best.pt --source 0
+$(venv) python detect.py --weights ../model/best.pt --source 0
 ```
 
 This will launch the detection with the `model/best.pt` and the webcam as an input.
