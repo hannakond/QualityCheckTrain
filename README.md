@@ -14,7 +14,7 @@ __NOTE__: the HTTP service using this model is in
 ## Prerequisites.
 
 1. Setup CUDA >= 11.0 following [the official guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/).
-Ultimately, you need an AWS or Google Cloud instance with a GPU having ~12GB of memory to run the service.
+Ultimately, you need an AWS or Google Cloud instance with a GPU having ~7GB of memory to run the service.
 __NOTE__: the GPU memory size for training is more than for inference! From pragmatic point of view,
 it's better to have a powerful GPU for training, training on CPU takes a lot of time.
 
@@ -56,10 +56,10 @@ $(venv) python train.py --data ../config/fruits.yaml
 ```
 
 Training will take a while depending on your resources.
-The output will appear in `yolov5/runs/train` directory.
+The output will appear in `yolov5/runs/train/exp...` directory.
 
 The model trained on AWS instance given `datasets/fruits` training set is saved
-as `model/best.pt`
+as `model/best.pt`.
 
 ## Detection
 
