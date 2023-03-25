@@ -1,9 +1,9 @@
 # Fruit Quality Check Training Pipeline
 
-This is a part the final project of Hanna Kondrashova at the University of London.
+This is a part of the final project of Hanna Kondrashova at the University of London.
 
 This repository contains the training pipeline to produce a computer vision model 
-based on YOLOv5 that can process the following classes:
+based on YOLOv5 that contains the following classes:
 - Rotten apple
 - Good apple
 - Storage containing a large amount of apples that are difficult to distinguish
@@ -14,9 +14,10 @@ __NOTE__: the HTTP service using this model is in
 ## Prerequisites.
 
 1. Setup CUDA >= 11.0 following [the official guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/).
-Ultimately, you need an AWS or Google Cloud instance with a GPU having ~7GB of memory to run the service.
-__NOTE__: the GPU memory size for training is more than for inference! From pragmatic point of view,
-it's better to have a powerful GPU for training, training on CPU takes a lot of time.
+Ultimately, you need an AWS or Google Cloud instance with a GPU having ~7GB of memory to run training.
+
+__NOTE__: the GPU memory size for training might be more than for inference! From pragmatic point of view,
+it's better to have a powerful GPU for training because training on CPU takes a lot of time.
 
 2. Clone the repository:
 
