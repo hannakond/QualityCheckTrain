@@ -11,7 +11,7 @@ based on YOLOv5 that contains the following classes:
 __NOTE__: the HTTP service using this model is in
 [QualityCheck](https://github.com/hannakond/QualityCheck) repository.
 
-## Prerequisites.
+## Prerequisites
 
 1. Setup CUDA >= 11.0 following [the official guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/).
 Ultimately, you need an AWS or Google Cloud instance with a GPU having ~7GB of memory to run training.
